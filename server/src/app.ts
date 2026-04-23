@@ -1,6 +1,7 @@
 import express, { Request, Response } from "express";
 import cors from "cors";
 import usersRouter from "./routes/users";
+import booksRouter from "./routes/books";
 
 const app = express();
 app.use(
@@ -15,5 +16,6 @@ app.get("/", (req: Request, res: Response) => {
 });
 
 app.use("/users", usersRouter);
+app.use("/books", booksRouter);
 
 export default app;

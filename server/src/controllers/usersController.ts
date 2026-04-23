@@ -1,4 +1,3 @@
-import { Request, Response } from "express";
 import { Users } from "../models/Users";
 import { asyncHandler } from "../utils/asyncHandler";
 
