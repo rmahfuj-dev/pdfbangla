@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import TopBooks from "./(home)/TopBooks";
 
 const page = () => {
   return (
-    <div>page</div>
-  )
-}
+    <div>
+      <TopBooks />
+    </div>
+  );
+};
 
-export default page
+export default page;

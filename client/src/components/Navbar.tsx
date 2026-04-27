@@ -23,7 +23,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="w-full border-b bg-background">
+    <header className="w-full border-b bg-background sticky top-0 shadow-lg">
       <Container>
         <div className=" mx-auto flex items-center justify-between px-4 py-3">
           {/* Logo (bigger) */}
